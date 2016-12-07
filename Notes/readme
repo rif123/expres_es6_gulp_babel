@@ -1,0 +1,39 @@
+tidy 			=> rapih 
+debt			=> hutang 
+gifts			=> oleh oleh
+characteristic  => ciri khas
+bankrupt		=> bangkrut
+
+
+
+
+
+
+
+
+
+1 npm init
+2 create .flowconfig
+3.create .gitignore
+4 create README.md
+5.create gulpfile.babel.js
+6.create .babelrc
+7. mkdir src
+8. mkdir public
+9. mkdir app
+10. seting gitignore
+11. seting .babelrc
+12. npm install flow-bin -g
+14. seting .flowconfig
+15. npm install --save-dev babel-cli babel-plugin-transform-flow-strip-types babel-preset-es2015-node5 babel-preset-stage-0 gulp gulp-live-server gulp-shell gulp-watch rimraf
+16. npm install --save-dev run-sequence
+17.  npm install --save express body-parser multer morgan
+18. seting package json di scripts : "node ./app/index.js"
+19 setup gulpfile.babel.js
+20 gulp
+21. seting flowconfig
+22. dia akan buat 2 file di app dan do src
+22. setup express
+
+
+
