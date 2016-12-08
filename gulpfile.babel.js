@@ -7,7 +7,7 @@ import server from 'gulp-live-server';
 
 const paths = {
   js: ['./src/**/*.js'],
-  destination: './app'
+  destination: './gulp_generator'
 }
 
 gulp.task('default', cb => {
@@ -27,7 +27,7 @@ gulp.task('flow', shell.task([
 ], {ignoreErrors: true}));
 
 gulp.task('babel', shell.task([
-  'babel src --out-dir app'
+  'babel src --out-dir gulp_generator'
 ]));
 
 let express;
